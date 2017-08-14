@@ -1,0 +1,26 @@
+# Distribution / packaging
+*.swp
+*~
+*.pyc
+docs/_build/*
+*.egg-info
+.cache
+
+# PyCharm
+.idea
+
+# pyenv
+.python-version
+
+# dotenv
+.env
+
+# virtualenv
+.venv/
+venv/
+
+# Project files
+data/*
+log/*.log
+tests/data/csv/
+tests/data/raw/
