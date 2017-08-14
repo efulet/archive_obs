@@ -47,7 +47,7 @@ Please, decompress the file into the data `folder`, first make sure there is not
 folder with data.
 
 The parse option take FITS header files in a range of dates and convert them in a CSV 
-representation. A CSV file isn't overwritten if it exist.
+representation.
 
 ```bash
 > archive_obs -f 2017-05-01 -t 2017-05-15 --parse
@@ -66,7 +66,7 @@ This option is taken all collected data from the CSV file. Also, we can store th
 with the opciotn `--save`. There is a sample file called `map.pdf` into the `data` folder
 
 
-##Testing
+## Testing
 
 Execute at the project root:
 
