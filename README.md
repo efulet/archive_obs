@@ -46,8 +46,8 @@ was under development. The sample data raw.zip is online at
 Please, decompress the file into the data `folder`, first make sure there is not another raw 
 folder with data.
 
-The parse option take FITS header files in a range of dates and convert them in a CSV 
-representation.
+The parse option take FITS header files in a range of dates and converts them into a CSV 
+representation. A CSV file isn't overwritten if it exists.
 
 ```bash
 > archive_obs -f 2017-05-01 -t 2017-05-15 --parse
@@ -56,14 +56,14 @@ representation.
 If you don't provide dates for options `fetch` and `parse`, then they will be set up with values 
 of the last night.
 
-Finaly, we can see where Gemini Observatory has been pointing out, running:
+Finally, we can see where Gemini Observatory has been pointing at, running:
 
 ```bash
 > archive_obs --show
 ```
 
-This option is taken all collected data from the CSV file. Also, we can store the map as a PDF file
-with the opciotn `--save`. There is a sample file called `map.pdf` into the `data` folder
+This option takes all collected data from the CSV file. We can also store the map as a PDF file
+with the option `--save`. There is a sample file named `map.pdf` within the `data` folder
 
 
 ## Testing
